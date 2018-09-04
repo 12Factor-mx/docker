@@ -22,3 +22,9 @@ docker inspect --format '{{ .NetworkSettings.IPAddress }}' test_sshd
 ssh root@\<your container ip\>
 --------
 5) Enjoy.
+
+Some note on key securty:
+
+This Dokerfile creates the key inside the container. For greater secury yo can modify this docket file to store the keys on the host and modify the /etc/ssh/sshd_conf for serching the keys on a host mounted volume. Hope to have some time to work on this soon.
+
+
