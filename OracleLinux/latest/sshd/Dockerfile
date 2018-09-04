@@ -5,10 +5,9 @@
 # Taken from https://docs.docker.com/engine/examples/running_ssh_service/ 
 #            https://hub.docker.com/_/oraclelinux/
 #
-# Becuase of Ansible usage I extended the original Oracle's linux lastest version image (oraclelinux:latest) with an up and running sshd server
+# Becuase of Ansible usage I extended the original Oracle's linux latest tagged version image (oraclelinux:latest) with an up and running sshd server
 
 
-#FROM oracle/serverjre:8
 FROM oraclelinux:latest
 
 MAINTAINER Miguel Jesús Díaz Macedo <webmaster@12factor.mx>
