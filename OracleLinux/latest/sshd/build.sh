@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build -t 12factor.mx/oraclelinux:lastest .
+docker build -t 12factormx/oraclelinux:latest .
