@@ -7,7 +7,7 @@ The Dockerfile in this repo is based on https://docs.docker.com/engine/examples/
 --------
 1) Build:
 
-./buld.sh
+./build.sh
 --------
 2) Run:
 
