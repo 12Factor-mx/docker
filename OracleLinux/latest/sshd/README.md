@@ -25,6 +25,6 @@ ssh root@\<your container ip\>
 
 Some note on key securty:
 
-This Dokerfile creates the key inside the container. For greater secury yo can modify this docket file to store the keys on the host and modify the /etc/ssh/sshd_conf for serching the keys on a host mounted volume. Hope to have some time to work on this soon.
+This Dokerfile creates the keys inside the container. For greater security yo can modify this Dockerfile to store the keys on the host and modify the /etc/ssh/sshd_conf for searching the keys on a host mounted volume. Hope to have some time to work on this soon.
 
 
