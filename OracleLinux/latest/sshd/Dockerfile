@@ -1,6 +1,6 @@
 # LICENSE MIT
 #
-# Copyright (c) 2018 12factor and/or its affiliates.
+# Copyright (c) 2018 12factor and/or its affiliates and/or Miguel Jesús Díaz Macedo.
 #
 # Taken from https://docs.docker.com/engine/examples/running_ssh_service/ 
 #            https://hub.docker.com/_/oraclelinux/
