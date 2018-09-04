@@ -11,7 +11,7 @@ The Dockerfile in this repo is based on https://docs.docker.com/engine/examples/
 --------
 2) Run:
 
-docker run -d -p 22:22 --name test_sshd 12factor.mx/oraclelinux:latest
+docker run -d -p 22:22 --name test_sshd 12factormx/oraclelinux:latest
 --------
 3) Check you cointainer ip:
 
