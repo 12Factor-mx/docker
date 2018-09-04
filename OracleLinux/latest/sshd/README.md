@@ -19,6 +19,6 @@ docker inspect --format '{{ .NetworkSettings.IPAddress }}' test_sshd
 --------
 4) Connect (password for root is root):
 
-ssh root@<your container ip>
+ssh root@\<your container ip\>
 --------
 5) Enjoy.
